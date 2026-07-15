@@ -1,0 +1,154 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+!.env.sample
+
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Data files
+# =========================
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.xlsm
+*.ods
+*.jsonl
+*.parquet
+*.feather
+*.arrow
+*.orc
+*.avro
+*.h5
+*.hdf5
+*.db
+*.sqlite
+*.sqlite3
+
+data/
+datasets/
+dataset/
+raw_data/
+processed_data/
+outputs/
+artifacts/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+.ipynb_checkpoints/
+
+# =========================
+# Java
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+
+target/
+.gradle/
+build/
+out/
+
+# Maven wrapper jar is often generated
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# C / C++
+# =========================
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Autotools
+autom4te.cache/
+aclocal.m4
+config.log
+config.status
+configure
+Makefile.in
+
+# =========================
+# Package / Dependency caches
+# =========================
+.cache/
+tmp/
+temp/
+
+### Video ###
+*.3g2
+*.3gp
+*.asf
+*.asx
+*.avi
+*.flv
+*.mkv
+*.mov
+*.mp4
+*.mpg
+*.ogv
+*.rm
+*.swf
+*.vob
+*.wmv
+*.webm
